@@ -1,0 +1,16 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Python / OS files
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Generated task materials are private by default
+work/
+outputs/
+*.log
